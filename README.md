@@ -1,6 +1,6 @@
 CREDITS
 
-Night Sky: Photo by Romain Briaux on Unsplash
+Splash Page Photo by Christian Perner on Unsplash
 
 # [Start Bootstrap - Creative](https://startbootstrap.com/template-overviews/creative/)
 

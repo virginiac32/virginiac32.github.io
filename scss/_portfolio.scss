@@ -1,8 +1,10 @@
 // Styling for the portfolio section
+
+
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
+  max-width: 100%;
   margin: 0 auto;
   .portfolio-box-caption {
     position: absolute;
@@ -55,5 +57,17 @@
         }
       }
     }
+  }
+  .projects, .each-item {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .project-description {
+    width: 650px;
+  }
+
+  #projects-header {
+    padding: 100px 0;
   }
 }
