@@ -195,6 +195,26 @@ header.masthead {
             max-width: 80%;
             margin-right: auto;
             margin-left: auto; } }
+  header.masthead .masthead-content {
+    display: flex;
+    flex-direction: row; }
+  header.masthead .profile {
+    height: 70%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+  header.masthead .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0; }
+  header.masthead .links li {
+    list-style: none;
+    padding: 20px; }
+  header.masthead #homeHeading {
+    font-size: 50px; }
 
 .service-box {
   max-width: 400px;
