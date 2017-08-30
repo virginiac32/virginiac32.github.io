@@ -63,10 +63,6 @@
     flex-direction: row;
   }
 
-  .project-description {
-    width: 650px;
-  }
-
   #projects-header {
     padding: 100px 0;
   }
@@ -111,4 +107,14 @@
 
 .portfolio-link span {
   font-size: 30px;
+}
+
+.project {
+  padding-top: 40px;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
