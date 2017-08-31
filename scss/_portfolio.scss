@@ -102,11 +102,7 @@
 
 .portfolio-img {
   height: 500px;
-  align-self: center;
-}
-
-.portfolio-link span {
-  font-size: 30px;
+  align-self: flex-end;
 }
 
 .project {
@@ -116,8 +112,13 @@
 .project-description {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .project-header {
   padding-top: 60px;
+}
+
+#portfolio {
+  background-color: #f2f1f1;
 }

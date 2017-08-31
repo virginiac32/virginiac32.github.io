@@ -5,7 +5,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url('../img/header.jpg');
+  // background-image: url('../img/header.jpg');
   background-position: center;
   @include background-cover;
   .header-content {
@@ -39,7 +39,7 @@ header.masthead {
     min-height: 600px;
     .header-content {
       position: absolute;
-      top: 50%;
+      top: 55%;
       padding: 0 50px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -71,7 +71,7 @@ header.masthead {
 
   // comment out the other classes to show it rounded
   .profile {
-    height: 70%;
+    height: 60%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -84,6 +84,7 @@ header.masthead {
     flex-direction: row;
     justify-content: center;
     padding: 0;
+    padding-top: 20px;
   }
 
   .links li {
@@ -91,7 +92,23 @@ header.masthead {
     padding: 20px;
   }
 
+  .links li i:hover {
+    color: #468686;
+    transform: scale(1.1);
+  }
+
   #homeHeading {
     font-size: 50px;
+  }
+
+  .profile-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 80px;
+  }
+
+  #about {
+    font-size: 40px;
   }
 }

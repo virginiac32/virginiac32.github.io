@@ -12,7 +12,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
 hr {
-  max-width: 50px;
+  max-width: 100px;
   border-width: 3px;
   border-color: #57a8a8; }
 
@@ -147,7 +147,6 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/header.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -180,7 +179,7 @@ header.masthead {
       min-height: 600px; }
       header.masthead .header-content {
         position: absolute;
-        top: 50%;
+        top: 55%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -202,7 +201,7 @@ header.masthead {
     display: flex;
     flex-direction: row; }
   header.masthead .profile {
-    height: 70%;
+    height: 60%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -212,12 +211,23 @@ header.masthead {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 0; }
+    padding: 0;
+    padding-top: 20px; }
   header.masthead .links li {
     list-style: none;
     padding: 20px; }
+  header.masthead .links li i:hover {
+    color: #468686;
+    transform: scale(1.1); }
   header.masthead #homeHeading {
     font-size: 50px; }
+  header.masthead .profile-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 80px; }
+  header.masthead #about {
+    font-size: 40px; }
 
 .service-box {
   max-width: 400px;
@@ -298,20 +308,21 @@ header.masthead {
 
 .portfolio-img {
   height: 500px;
-  align-self: center; }
-
-.portfolio-link span {
-  font-size: 30px; }
+  align-self: flex-end; }
 
 .project {
   padding-top: 100px; }
 
 .project-description {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: flex-start; }
 
 .project-header {
   padding-top: 60px; }
+
+#portfolio {
+  background-color: #f2f1f1; }
 
 .call-to-action {
   padding: 50px 0; }
