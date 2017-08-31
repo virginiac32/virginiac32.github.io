@@ -238,6 +238,15 @@ header.masthead {
   .service-box p {
     margin-bottom: 0; }
 
+.title {
+  color: #57a8a8;
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 18px; }
+
+.experiences {
+  margin-top: 80px; }
+
 .portfolio-box {
   position: relative;
   display: block;
@@ -313,6 +322,9 @@ header.masthead {
 .project {
   padding-top: 100px; }
 
+.all-projects {
+  padding-bottom: 100px; }
+
 .project-description {
   display: flex;
   flex-direction: column;
@@ -322,7 +334,8 @@ header.masthead {
   padding-top: 60px; }
 
 #portfolio {
-  background-color: #f2f1f1; }
+  background-color: #f2f1f1;
+  padding-bottom: 100px; }
 
 .call-to-action {
   padding: 50px 0; }
