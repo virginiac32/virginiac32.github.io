@@ -110,11 +110,14 @@
 }
 
 .project {
-  padding-top: 40px;
+  padding-top: 100px;
 }
 
 .project-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+.project-header {
+  padding-top: 60px;
 }

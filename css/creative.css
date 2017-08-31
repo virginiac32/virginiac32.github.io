@@ -158,19 +158,22 @@ header.masthead {
     width: 100%;
     padding: 150px 15px 100px;
     text-align: center; }
-    header.masthead .header-content .header-content-inner h1 {
-      font-size: 30px;
-      font-weight: 700;
-      margin-top: 0;
-      margin-bottom: 0;
-      text-transform: uppercase; }
-    header.masthead .header-content .header-content-inner hr {
-      margin: 30px auto; }
-    header.masthead .header-content .header-content-inner p {
-      font-size: 16px;
-      font-weight: 300;
-      margin-bottom: 50px;
-      color: rgba(255, 255, 255, 0.7); }
+    header.masthead .header-content .header-content-inner {
+      display: flex;
+      flex-direction: row; }
+      header.masthead .header-content .header-content-inner h1 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-transform: uppercase; }
+      header.masthead .header-content .header-content-inner hr {
+        margin: 30px auto; }
+      header.masthead .header-content .header-content-inner p {
+        font-size: 16px;
+        font-weight: 300;
+        margin-bottom: 50px;
+        color: rgba(255, 255, 255, 0.7); }
   @media (min-width: 768px) {
     header.masthead {
       height: 100%;
@@ -301,12 +304,14 @@ header.masthead {
   font-size: 30px; }
 
 .project {
-  padding-top: 40px; }
+  padding-top: 100px; }
 
 .project-description {
   display: flex;
-  flex-direction: column;
-  justify-content: center; }
+  flex-direction: column; }
+
+.project-header {
+  padding-top: 60px; }
 
 .call-to-action {
   padding: 50px 0; }
