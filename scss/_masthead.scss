@@ -39,7 +39,7 @@ header.masthead {
     min-height: 600px;
     .header-content {
       position: absolute;
-      top: 55%;
+      top: 58%;
       padding: 0 50px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -71,7 +71,7 @@ header.masthead {
 
   // comment out the other classes to show it rounded
   .profile {
-    height: 60%;
+    width: 100%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
